@@ -4,7 +4,7 @@ Official website for the Plant Data Science Lab at Kunsan National University.
 
 ## About
 
-PDSL integrates plant genomics, bioinformatics, quantitative genetics, and artificial intelligence to accelerate crop improvement. The website is a lightweight, responsive one-page site built with semantic HTML, CSS, and vanilla JavaScript.
+PDSL integrates plant genomics, bioinformatics, quantitative genetics, and artificial intelligence to accelerate crop improvement. The website is a lightweight, responsive multi-page site built with semantic HTML, CSS, and vanilla JavaScript.
 
 ## Local preview
 
@@ -27,13 +27,15 @@ All site assets use relative paths so the project works from the `/PDSL/` subpat
 
 ## Updating content
 
-- Add publications inside the commented publication area in `index.html`.
-- Add new lab news at the top of the `.news-list` container.
+- Add publications inside the commented publication area in `publications.html`.
+- Add new lab news at the top of the `.news-list` container in `news.html`.
 - Replace the profile placeholder when an official photograph is available.
 - Replace `your-email@ksnu.ac.kr` only after confirming the PI's email address.
 
 ## Files
 
-- `index.html` — page content and semantic structure
+- `index.html` — home page and primary entry points
+- `research.html`, `people.html`, `publications.html`, `news.html`, `join.html`, `contact.html` — section pages
 - `styles.css` — visual system and responsive layouts
 - `script.js` — mobile navigation, active section state, and subtle reveal effects
+- `og.png` — social sharing preview image
