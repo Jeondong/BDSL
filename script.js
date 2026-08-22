@@ -18,6 +18,8 @@ menuToggle.addEventListener('click', () => {
   menuToggle.querySelector('.sr-only').textContent = isOpen ? 'Open navigation menu' : 'Close navigation menu';
 });
 
+menu.querySelectorAll('a').forEach((link) => link.addEventListener('click', closeMenu));
+
 document.addEventListener('keydown', (event) => {
   if (event.key === 'Escape' && menu.classList.contains('open')) { closeMenu(); menuToggle.focus(); }
 });

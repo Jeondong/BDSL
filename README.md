@@ -27,15 +27,23 @@ All site assets use relative paths so the project works from the `/PDSL/` subpat
 
 ## Updating content
 
-- Add publications inside the commented publication area in `publications.html`.
 - Add new lab news at the top of the `.news-list` container in `news.html`.
-- Replace the profile placeholder when an official photograph is available.
-- Replace `your-email@ksnu.ac.kr` only after confirming the PI's email address.
+- Add verified publications by year in `publications.html`.
+- Update the PI biography, appointments, education, research interests, and skills in `pi.html`.
+- Add new member profiles to `people.html` as the lab grows.
+- Add the office and laboratory room numbers to `contact.html` after space assignment.
 
 ## Files
 
 - `index.html` — home page and primary entry points
-- `research.html`, `people.html`, `publications.html`, `news.html`, `join.html`, `contact.html` — section pages
+- `news.html` — appointments, publications, and laboratory updates
+- `pi.html` — principal investigator profile, CV, research interests, and skills
+- `people.html` — laboratory members and prospective-member information
+- `research.html` — research areas and current projects
+- `publications.html` — selected peer-reviewed publications and profile link
+- `contact.html` — email and institutional address
+- `join.html` — compatibility redirect to `people.html`
+- `assets/donghyun-jeon.jpg` — optimized PI portrait
 - `styles.css` — visual system and responsive layouts
 - `script.js` — mobile navigation, active section state, and subtle reveal effects
 - `og.png` — social sharing preview image

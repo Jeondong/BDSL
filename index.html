@@ -3,10 +3,10 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="theme-color" content="#fafaf8">
-  <meta name="description" content="Plant Data Science Lab at Kunsan National University integrates plant genomics, bioinformatics, and artificial intelligence to accelerate crop improvement.">
+  <meta name="theme-color" content="#f8f7f2">
+  <meta name="description" content="Plant Data Science Lab at Kunsan National University studies plant genome diversity, agronomic traits, and data-driven crop improvement.">
   <meta property="og:title" content="Plant Data Science Lab | Kunsan National University">
-  <meta property="og:description" content="Decoding plant genomes. Designing better crops.">
+  <meta property="og:description" content="Plant genomics, agronomy, and data science for crop improvement.">
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://jeondong.github.io/PDSL/">
   <meta property="og:image" content="https://jeondong.github.io/PDSL/og.png">
@@ -17,41 +17,139 @@
 </head>
 <body data-page="home">
   <a class="skip-link" href="#main-content">Skip to content</a>
+
   <header class="site-header" data-header>
     <nav class="nav container" aria-label="Primary navigation">
-      <a class="brand" href="index.html" aria-label="PDSL home"><span class="brand-mark" aria-hidden="true">P</span><span>PDSL</span></a>
-      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="primary-menu" data-menu-toggle><span class="sr-only">Open navigation menu</span><span class="menu-line" aria-hidden="true"></span><span class="menu-line" aria-hidden="true"></span></button>
+      <a class="brand" href="index.html" aria-label="PDSL home">
+        <span class="brand-word">PDSL</span>
+        <span class="brand-sub">Plant Data Science Lab</span>
+      </a>
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="primary-menu" data-menu-toggle>
+        <span class="sr-only">Open navigation menu</span>
+        <span class="menu-line" aria-hidden="true"></span>
+        <span class="menu-line" aria-hidden="true"></span>
+      </button>
       <div class="nav-links" id="primary-menu" data-menu>
-        <a href="index.html" data-nav="home">Home</a><a href="research.html" data-nav="research">Research</a><a href="people.html" data-nav="people">People</a><a href="publications.html" data-nav="publications">Publications</a><a href="news.html" data-nav="news">News</a><a href="join.html" data-nav="join">Join Us</a><a href="contact.html" data-nav="contact">Contact</a>
+        <a href="index.html" data-nav="home">Home</a>
+        <a href="news.html" data-nav="news">News</a>
+        <a href="pi.html" data-nav="pi">PI</a>
+        <a href="people.html" data-nav="people">People</a>
+        <a href="research.html" data-nav="research">Research</a>
+        <a href="publications.html" data-nav="publications">Publications</a>
+        <a href="contact.html" data-nav="contact">Contact</a>
       </div>
     </nav>
   </header>
 
   <main id="main-content">
-    <section class="hero home-hero" aria-labelledby="hero-title">
-      <div class="hero-inner container">
-        <div class="hero-copy reveal">
-          <p class="eyebrow">Plant Data Science Lab</p>
-          <h1 id="hero-title">Decoding plant genomes.<br><span>Designing better crops.</span></h1>
-          <p class="hero-summary">We integrate plant genomics, bioinformatics, and artificial intelligence to accelerate crop improvement.</p>
-          <div class="button-row"><a class="button button-primary" href="research.html">Explore Our Research</a><a class="button button-secondary" href="join.html">Join the Lab</a></div>
+    <section class="home-hero">
+      <div class="container home-hero-grid">
+        <div class="reveal">
+          <p class="kicker">Kunsan National University</p>
+          <h1>Plant Data<br>Science Lab</h1>
+          <p class="lede">We study plant genome diversity and agronomic variation using genome assembly, population genomics, transcriptomics, phenomics, and data-driven breeding.</p>
+          <div class="button-row">
+            <a class="button button-primary" href="research.html">Research</a>
+            <a class="button" href="pi.html">Principal Investigator</a>
+          </div>
         </div>
-        <div class="genome-visual reveal" aria-hidden="true"><div class="orbit orbit-one"></div><div class="orbit orbit-two"></div><div class="genome-strand strand-one"></div><div class="genome-strand strand-two"></div><span class="data-node node-one"></span><span class="data-node node-two"></span><span class="data-node node-three"></span><span class="data-node node-four"></span></div>
+        <dl class="focus-index reveal" aria-label="Research focus">
+          <div><dt>01</dt><dd>Genome diversity</dd></div>
+          <div><dt>02</dt><dd>Agronomic traits</dd></div>
+          <div><dt>03</dt><dd>Digital breeding</dd></div>
+        </dl>
       </div>
     </section>
 
-    <section class="home-paths" aria-labelledby="explore-title">
+    <section class="section">
       <div class="container">
-        <div class="home-paths-heading reveal"><p class="eyebrow">Explore PDSL</p><h2 id="explore-title">One lab. Many ways in.</h2></div>
-        <div class="path-grid reveal">
-          <a class="path-card" href="research.html"><span>01</span><h3>Research</h3><p>Discover the questions, methods, and projects shaping our work.</p><b aria-hidden="true">→</b></a>
-          <a class="path-card" href="people.html"><span>02</span><h3>People</h3><p>Meet the principal investigator and the team we are building.</p><b aria-hidden="true">→</b></a>
-          <a class="path-card" href="join.html"><span>03</span><h3>Join Us</h3><p>Explore opportunities for students and research collaborators.</p><b aria-hidden="true">→</b></a>
+        <div class="section-heading reveal">
+          <div>
+            <p class="kicker">Research focus</p>
+            <h2>Plant genomics, trait analysis, and crop improvement.</h2>
+          </div>
+          <a class="section-link" href="research.html">View research →</a>
+        </div>
+        <div class="home-research-grid reveal">
+          <article class="home-research-item">
+            <span>01</span>
+            <h3>Genome diversity</h3>
+            <p>Genome assembly, pangenomics, structural variation, and evolutionary and population genomics.</p>
+          </article>
+          <article class="home-research-item">
+            <span>02</span>
+            <h3>Functional data</h3>
+            <p>Transcriptomics, pan-transcriptomics, phenomics, and integrated analysis of plant traits.</p>
+          </article>
+          <article class="home-research-item">
+            <span>03</span>
+            <h3>Crop improvement</h3>
+            <p>Genomic selection, digital breeding, bioinformatics methods, and AI for agricultural data.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-muted">
+      <div class="container">
+        <div class="section-heading reveal">
+          <div>
+            <p class="kicker">Current projects</p>
+            <h2>Current work in carrot and wheat.</h2>
+          </div>
+          <a class="section-link" href="research.html#projects">Project details →</a>
+        </div>
+        <div class="project-preview-list reveal">
+          <a class="project-preview" href="research.html#carrot-pan-genome">
+            <span class="project-label">Carrot</span>
+            <div>
+              <h3>Carrot pan-genome</h3>
+              <p>Deciphering carrot domestication and genome diversity through pan-genome analysis.</p>
+            </div>
+            <span class="arrow" aria-hidden="true">→</span>
+          </a>
+          <a class="project-preview" href="research.html#wheat-population-genomics">
+            <span class="project-label">Wheat</span>
+            <div>
+              <h3>Wheat population genomics</h3>
+              <p>Identifying genetic variants and candidate genes associated with key agronomic traits in wheat.</p>
+            </div>
+            <span class="arrow" aria-hidden="true">→</span>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container latest-news reveal">
+        <div>
+          <p class="kicker">Latest news</p>
+          <h2>News from PDSL</h2>
+          <p class="lede">Appointments, publications, and laboratory updates from Kunsan National University.</p>
+          <div class="button-row"><a class="button" href="news.html">All news</a></div>
+        </div>
+        <div class="news-brief">
+          <article>
+            <time datetime="2026-09">September 2026</time>
+            <h3>Plant Data Science Lab opens at Kunsan National University.</h3>
+          </article>
+          <article>
+            <time datetime="2026-08">August 2026</time>
+            <h3>Donghyun Jeon appointed Assistant Professor of Biological Science.</h3>
+          </article>
         </div>
       </div>
     </section>
   </main>
 
-  <footer class="site-footer"><div class="container footer-inner"><a class="brand" href="index.html" aria-label="PDSL home"><span class="brand-mark" aria-hidden="true">P</span><span>PDSL</span></a><p>© <span data-year></span> Plant Data Science Lab · Kunsan National University</p></div></footer>
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div>
+        <a class="brand" href="index.html" aria-label="PDSL home"><span class="brand-word">PDSL</span><span class="brand-sub">Plant Data Science Lab</span></a>
+        <p class="footer-lab">Department of Biological Science<br>Kunsan National University</p>
+      </div>
+      <p class="footer-meta">© <span data-year></span> Plant Data Science Lab<br><a href="mailto:jeon@kunsan.ac.kr">jeon@kunsan.ac.kr</a></p>
+    </div>
+  </footer>
 </body>
 </html>
