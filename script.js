@@ -23,7 +23,7 @@ menu.querySelectorAll('a').forEach((link) => link.addEventListener('click', clos
 document.addEventListener('keydown', (event) => {
   if (event.key === 'Escape' && menu.classList.contains('open')) { closeMenu(); menuToggle.focus(); }
 });
-window.addEventListener('resize', () => { if (window.innerWidth > 900) closeMenu(); });
+window.addEventListener('resize', () => { if (window.innerWidth > 980) closeMenu(); });
 
 const currentPage = document.body.dataset.page;
 document.querySelectorAll('[data-nav]').forEach((link) => {

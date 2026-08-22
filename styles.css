@@ -540,6 +540,15 @@ h3 {
   line-height: 1.45;
 }
 
+.news-brief h3 a {
+  text-decoration: none;
+  transition: color 150ms ease;
+}
+
+.news-brief h3 a:hover {
+  color: var(--green);
+}
+
 /* News */
 .news-list {
   border-top: 1px solid var(--ink);
@@ -1098,7 +1107,7 @@ h3 {
   transform: translateY(0);
 }
 
-@media (min-width: 981px) {
+@media (min-width: 1100px) {
   .page-intro h1,
   .section-heading h2,
   .news-item h2,
