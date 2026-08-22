@@ -234,7 +234,7 @@ h3 {
 }
 
 .lede {
-  max-width: 760px;
+  max-width: none;
   margin: 0;
   color: var(--muted);
   font-size: clamp(1.08rem, 1.5vw, 1.28rem);
@@ -303,7 +303,7 @@ h3 {
 }
 
 .page-intro .lede {
-  max-width: 720px;
+  max-width: none;
 }
 
 .section {
@@ -338,7 +338,7 @@ h3 {
 }
 
 .section-heading p:not(.kicker) {
-  max-width: 590px;
+  max-width: none;
   margin: 12px 0 0;
   color: var(--muted);
 }
@@ -366,7 +366,7 @@ h3 {
 }
 
 .university-logo {
-  width: 210px;
+  width: 260px;
   height: auto;
   align-self: flex-end;
 }
@@ -380,7 +380,7 @@ h3 {
 }
 
 .home-hero .lede {
-  max-width: 760px;
+  max-width: none;
 }
 
 .focus-index {
@@ -410,7 +410,7 @@ h3 {
 
 .home-research-grid {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(2, 1fr);
   border-top: 1px solid var(--ink);
 }
 
@@ -420,14 +420,15 @@ h3 {
   border-bottom: 1px solid var(--line);
 }
 
-.home-research-item + .home-research-item {
+.home-research-item:nth-child(even) {
+  padding-right: 0;
   padding-left: clamp(22px, 3vw, 40px);
   border-left: 1px solid var(--line);
 }
 
 .home-research-item span {
   display: block;
-  margin-bottom: 52px;
+  margin-bottom: 38px;
   color: var(--green);
   font-size: 0.72rem;
   font-weight: 750;
@@ -484,7 +485,7 @@ h3 {
 
 .project-preview p,
 .project-row p {
-  max-width: 720px;
+  max-width: none;
   margin: 0;
   color: var(--muted);
 }
@@ -535,7 +536,7 @@ h3 {
 
 .news-brief h3 {
   margin: 0;
-  font-size: 1rem;
+  font-size: 0.94rem;
   line-height: 1.45;
 }
 
@@ -569,7 +570,7 @@ h3 {
 }
 
 .news-item p {
-  max-width: 740px;
+  max-width: none;
   margin: 13px 0 0;
   color: var(--muted);
 }
@@ -627,7 +628,7 @@ h3 {
 }
 
 .pi-bio {
-  max-width: 680px;
+  max-width: none;
   margin: 0;
   color: var(--muted);
   font-size: 1.06rem;
@@ -841,7 +842,7 @@ h3 {
 }
 
 .recruitment-note p {
-  max-width: 700px;
+  max-width: none;
   color: var(--muted);
 }
 
@@ -904,7 +905,7 @@ h3 {
 }
 
 .research-area p {
-  max-width: 490px;
+  max-width: none;
   margin: 0;
   color: var(--muted);
 }
@@ -919,7 +920,8 @@ h3 {
 }
 
 .publication-toolbar p {
-  max-width: 680px;
+  max-width: none;
+  flex: 1 1 auto;
   margin: 0;
   color: var(--muted);
 }
@@ -1208,7 +1210,7 @@ h3 {
   }
 
   .university-logo {
-    width: 150px;
+    width: 180px;
   }
 
   .pi-copy h1 {
