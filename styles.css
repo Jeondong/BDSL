@@ -345,9 +345,21 @@ h3 {
 
 /* Home */
 .home-hero {
-  padding-block: clamp(88px, 11vw, 160px);
+  padding-block: clamp(28px, 4vw, 56px) clamp(88px, 11vw, 160px);
   border-bottom: 1px solid var(--line);
   background: linear-gradient(180deg, #f8f7f2 0%, #f3f2eb 100%);
+}
+
+.home-hero-artwork {
+  margin: 0 0 clamp(64px, 8vw, 104px);
+  overflow: hidden;
+  border: 1px solid var(--line);
+  background: var(--blue-soft);
+}
+
+.home-hero-artwork img {
+  width: 100%;
+  height: auto;
 }
 
 .home-hero-grid {
@@ -1204,9 +1216,16 @@ h3 {
   }
 
   .page-intro,
-  .home-hero,
   .pi-hero {
     padding-block: 66px 72px;
+  }
+
+  .home-hero {
+    padding-block: 24px 72px;
+  }
+
+  .home-hero-artwork {
+    margin-bottom: 52px;
   }
 
   .page-intro h1,
