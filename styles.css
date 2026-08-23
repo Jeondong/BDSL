@@ -1,12 +1,12 @@
 :root {
   --paper: #f8f7f2;
   --paper-deep: #efeee7;
-  --ink: #18201c;
-  --muted: #626963;
-  --green: #24563f;
-  --green-dark: #173b2b;
-  --green-soft: #dfe9e1;
-  --line: rgba(24, 32, 28, 0.16);
+  --ink: #171a24;
+  --muted: #606674;
+  --blue: #293d9b;
+  --blue-dark: #1f2f78;
+  --blue-soft: #e3e7f5;
+  --line: rgba(31, 45, 93, 0.16);
   --white: #fff;
   --container: 1180px;
   --header-height: 76px;
@@ -54,7 +54,7 @@ a {
 }
 
 :focus-visible {
-  outline: 3px solid rgba(36, 86, 63, 0.34);
+  outline: 3px solid rgba(41, 61, 155, 0.32);
   outline-offset: 4px;
 }
 
@@ -155,7 +155,7 @@ h3 {
 }
 
 .brand-word {
-  color: var(--green);
+  color: var(--blue);
   font-family: Georgia, "Times New Roman", serif;
   font-size: 1.22rem;
   font-weight: 700;
@@ -179,7 +179,7 @@ h3 {
 
 .nav-links a {
   position: relative;
-  color: #39413c;
+  color: #3e4352;
   font-size: 0.79rem;
   font-weight: 600;
   text-decoration: none;
@@ -191,7 +191,7 @@ h3 {
   bottom: -8px;
   left: 0;
   height: 1px;
-  background: var(--green);
+  background: var(--blue);
   content: "";
   opacity: 0;
   transform: scaleX(0.6);
@@ -225,7 +225,7 @@ h3 {
 /* Shared type and controls */
 .kicker {
   margin: 0 0 18px;
-  color: var(--green);
+  color: var(--blue);
   font-size: 0.74rem;
   font-weight: 750;
   letter-spacing: 0.13em;
@@ -263,21 +263,21 @@ h3 {
 }
 
 .button-primary {
-  border-color: var(--green);
-  background: var(--green);
+  border-color: var(--blue);
+  background: var(--blue);
   color: var(--white);
 }
 
 .button:hover {
-  border-color: var(--green);
+  border-color: var(--blue);
 }
 
 .button-primary:hover {
-  background: var(--green-dark);
+  background: var(--blue-dark);
 }
 
 .text-link {
-  color: var(--green);
+  color: var(--blue);
   font-size: 0.88rem;
   font-weight: 700;
 }
@@ -285,7 +285,7 @@ h3 {
 .section-link {
   flex: 0 0 auto;
   margin-top: 8px;
-  color: var(--green);
+  color: var(--blue);
   font-size: 0.82rem;
   font-weight: 700;
 }
@@ -397,7 +397,7 @@ h3 {
 }
 
 .focus-index dt {
-  color: var(--green);
+  color: var(--blue);
   font-size: 0.72rem;
   font-weight: 750;
 }
@@ -429,7 +429,7 @@ h3 {
 .home-research-item span {
   display: block;
   margin-bottom: 38px;
-  color: var(--green);
+  color: var(--blue);
   font-size: 0.72rem;
   font-weight: 750;
 }
@@ -467,7 +467,7 @@ h3 {
 
 .project-preview .project-label,
 .project-row .project-label {
-  color: var(--green);
+  color: var(--blue);
   font-size: 0.72rem;
   font-weight: 750;
   letter-spacing: 0.08em;
@@ -495,7 +495,7 @@ h3 {
 }
 
 .project-preview .arrow {
-  color: var(--green);
+  color: var(--blue);
   font-size: 1.25rem;
   transition: transform 150ms ease;
 }
@@ -528,7 +528,7 @@ h3 {
 .news-brief time {
   display: block;
   margin-bottom: 7px;
-  color: var(--green);
+  color: var(--blue);
   font-size: 0.72rem;
   font-weight: 750;
   text-transform: uppercase;
@@ -546,7 +546,7 @@ h3 {
 }
 
 .news-brief h3 a:hover {
-  color: var(--green);
+  color: var(--blue);
 }
 
 /* News */
@@ -563,7 +563,7 @@ h3 {
 }
 
 .news-item time {
-  color: var(--green);
+  color: var(--blue);
   font-size: 0.8rem;
   font-weight: 750;
   text-transform: uppercase;
@@ -619,7 +619,7 @@ h3 {
 
 .pi-title {
   margin: 0 0 26px;
-  color: var(--green);
+  color: var(--blue);
   font-size: 1rem;
   font-weight: 750;
   line-height: 1.6;
@@ -631,7 +631,7 @@ h3 {
 }
 
 .pi-email a {
-  color: var(--green);
+  color: var(--blue);
   font-weight: 700;
   text-decoration: none;
 }
@@ -672,7 +672,7 @@ h3 {
 }
 
 .timeline time {
-  color: var(--green);
+  color: var(--blue);
   font-size: 0.75rem;
   font-weight: 750;
 }
@@ -693,7 +693,7 @@ h3 {
 .timeline .timeline-detail {
   margin-top: 12px;
   padding-top: 12px;
-  border-top: 1px solid rgba(24, 32, 28, 0.09);
+  border-top: 1px solid rgba(31, 45, 93, 0.09);
   font-size: 0.8rem;
 }
 
@@ -725,7 +725,7 @@ h3 {
 
 .plain-list li {
   padding-block: 7px;
-  border-bottom: 1px solid rgba(24, 32, 28, 0.09);
+  border-bottom: 1px solid rgba(31, 45, 93, 0.09);
   color: var(--muted);
   font-size: 0.91rem;
 }
@@ -779,7 +779,7 @@ h3 {
 }
 
 .record-list li > span {
-  color: var(--green);
+  color: var(--blue);
   font-size: 0.72rem;
   font-weight: 750;
 }
@@ -866,7 +866,7 @@ h3 {
 
 .recruitment-details dt {
   margin-bottom: 5px;
-  color: var(--green);
+  color: var(--blue);
   font-size: 0.71rem;
   font-weight: 750;
   letter-spacing: 0.08em;
@@ -900,7 +900,7 @@ h3 {
 .research-area .area-number {
   display: block;
   margin-bottom: 42px;
-  color: var(--green);
+  color: var(--blue);
   font-size: 0.72rem;
   font-weight: 750;
 }
@@ -949,7 +949,7 @@ h3 {
 
 .publication-year > h2 {
   margin: 8px 0 0;
-  color: var(--green);
+  color: var(--blue);
   font-family: inherit;
   font-size: 0.84rem;
   font-weight: 800;
@@ -985,7 +985,7 @@ h3 {
 }
 
 .publication h3 a:hover {
-  color: var(--green);
+  color: var(--blue);
 }
 
 .publication p {
@@ -998,8 +998,8 @@ h3 {
   display: inline-block;
   margin-bottom: 8px;
   padding: 3px 7px;
-  border: 1px solid rgba(36, 86, 63, 0.34);
-  color: var(--green);
+  border: 1px solid rgba(41, 61, 155, 0.34);
+  color: var(--blue);
   font-size: 0.66rem;
   font-weight: 800;
   letter-spacing: 0.06em;
@@ -1045,7 +1045,7 @@ h3 {
 }
 
 .contact-row a {
-  color: var(--green);
+  color: var(--blue);
   font-weight: 700;
 }
 
