@@ -18,13 +18,11 @@ Then visit `http://localhost:8000`.
 
 ## GitHub Pages deployment
 
-1. Open the repository on GitHub and go to **Settings → Pages**.
-2. Under **Build and deployment**, set **Source** to **Deploy from a branch**.
-3. Select the `main` branch and the `/ (root)` folder, then click **Save**.
-4. After GitHub finishes deployment, the site will be available at [https://jeondong.github.io/PDSL/](https://jeondong.github.io/PDSL/).
+The `main` branch is the single source of truth for the website. The `.github/workflows/sync-gh-pages.yml` workflow mirrors `main` to `gh-pages` after every push, and GitHub Pages publishes the `/ (root)` folder of `gh-pages`.
 
-All site assets use relative paths so the project works from the `/PDSL/` subpath.
+Edit `main` only. Do not edit `gh-pages` manually.
 
+The live site is available at [https://jeondong.github.io/BDSL/](https://jeondong.github.io/BDSL/).
 ## Updating content
 
 - Add new lab news at the top of the `.news-list` container in `news.html`.
@@ -47,5 +45,5 @@ All site assets use relative paths so the project works from the `/PDSL/` subpat
 - `styles.css` — visual system and responsive layouts
 - `script.js` — mobile navigation, active section state, and subtle reveal effects
 - `assets/bdsl-research-landscape.png` — homepage hero image
-- `assets/bdsl-social-preview.png` — social sharing preview image
+- `assets/bdsl-social-card.jpg` — social sharing preview image
 - `assets/ksnu-symbol-favicon.png` — source image for the university-symbol favicon
