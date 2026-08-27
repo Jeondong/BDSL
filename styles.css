@@ -947,6 +947,11 @@ h3 {
   color: var(--muted);
 }
 
+.publication-scholar-link {
+  flex: 0 0 auto;
+  white-space: nowrap;
+}
+
 .publication-year {
   display: grid;
   grid-template-columns: 120px minmax(0, 1fr);

@@ -1,10 +1,10 @@
-# Plant Data Science Lab (PDSL)
+# Biological Data Science Lab (BDSL)
 
-Official website for the Plant Data Science Lab at Kunsan National University.
+Official website for the Biological Data Science Lab at Kunsan National University.
 
 ## About
 
-PDSL integrates plant genomics, bioinformatics, quantitative genetics, and artificial intelligence to accelerate crop improvement. The website is a lightweight, responsive multi-page site built with semantic HTML, CSS, and vanilla JavaScript.
+BDSL integrates genomics, bioinformatics, quantitative genetics, phenomics, and artificial intelligence to understand complex biological variation. The website is a lightweight, responsive multi-page site built with semantic HTML, CSS, and vanilla JavaScript.
 
 ## Local preview
 
@@ -46,4 +46,4 @@ All site assets use relative paths so the project works from the `/PDSL/` subpat
 - `assets/donghyun-jeon.jpg` — optimized PI portrait
 - `styles.css` — visual system and responsive layouts
 - `script.js` — mobile navigation, active section state, and subtle reveal effects
-- `og.png` — social sharing preview image
+- `assets/bdsl-research-landscape.png` — homepage hero and social sharing preview image
