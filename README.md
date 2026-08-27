@@ -46,4 +46,6 @@ All site assets use relative paths so the project works from the `/PDSL/` subpat
 - `assets/donghyun-jeon.jpg` — optimized PI portrait
 - `styles.css` — visual system and responsive layouts
 - `script.js` — mobile navigation, active section state, and subtle reveal effects
-- `assets/bdsl-research-landscape.png` — homepage hero and social sharing preview image
+- `assets/bdsl-research-landscape.png` — homepage hero image
+- `assets/bdsl-social-preview.png` — social sharing preview image
+- `assets/ksnu-symbol-favicon.png` — source image for the university-symbol favicon
