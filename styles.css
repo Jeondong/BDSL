@@ -1457,3 +1457,24 @@ h1:lang(ko), h2:lang(ko), h3:lang(ko) {
 @media (max-width: 980px) {
   .brand-sub:lang(ko) { display: inline; }
 }
+
+/* English lab identity in the header and home title. */
+.site-header .brand {
+  flex: 0 1 auto;
+  min-width: 0;
+}
+
+.site-header .brand-sub:lang(en) {
+  display: inline;
+  font-size: 0.69rem;
+  letter-spacing: 0;
+  line-height: 1.35;
+  text-transform: none;
+}
+
+.home-hero h1:lang(en) {
+  margin-bottom: 12px;
+  font-size: clamp(2rem, 4.2vw, 3.1rem);
+  line-height: 1.12;
+  white-space: normal;
+}
