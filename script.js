@@ -7,7 +7,7 @@ const closeMenu = () => {
   menuToggle.setAttribute('aria-expanded', 'false');
   menu.classList.remove('open');
   document.body.classList.remove('menu-open');
-  menuToggle.querySelector('.sr-only').textContent = 'Open navigation menu';
+  menuToggle.querySelector('.sr-only').textContent = '메뉴 열기';
 };
 
 menuToggle.addEventListener('click', () => {
@@ -15,7 +15,7 @@ menuToggle.addEventListener('click', () => {
   menuToggle.setAttribute('aria-expanded', String(!isOpen));
   menu.classList.toggle('open', !isOpen);
   document.body.classList.toggle('menu-open', !isOpen);
-  menuToggle.querySelector('.sr-only').textContent = isOpen ? 'Open navigation menu' : 'Close navigation menu';
+  menuToggle.querySelector('.sr-only').textContent = isOpen ? '메뉴 열기' : '메뉴 닫기';
 });
 
 menu.querySelectorAll('a').forEach((link) => link.addEventListener('click', closeMenu));

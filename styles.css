@@ -1378,3 +1378,82 @@ h3 {
     transform: none;
   }
 }
+
+/* Korean-first content with English supporting labels. */
+html:lang(ko) body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Apple SD Gothic Neo", "Malgun Gothic", sans-serif;
+  word-break: keep-all;
+  overflow-wrap: anywhere;
+}
+
+h1:lang(ko), h2:lang(ko), h3:lang(ko) {
+  font-family: inherit;
+  line-height: 1.35;
+  white-space: normal;
+}
+
+.home-hero h1:lang(ko) {
+  margin-bottom: 12px;
+  font-size: clamp(1.6rem, 4.2vw, 3.1rem);
+  letter-spacing: -0.055em;
+}
+
+.hero-subtitle {
+  margin: 0 0 28px;
+  color: var(--blue);
+  font-size: clamp(0.95rem, 1.6vw, 1.22rem);
+  line-height: 1.5;
+}
+
+.english-label,
+.home-research-item .english-label {
+  display: block;
+  margin: 6px 0 0;
+  color: var(--muted);
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  font-size: 0.82rem;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: 1.5;
+}
+
+.name-english {
+  display: block;
+  margin-top: 8px;
+  color: var(--muted);
+  font-size: clamp(1.05rem, 2vw, 1.45rem);
+  font-weight: 400;
+  letter-spacing: 0;
+}
+
+.affiliation-english {
+  display: inline-block;
+  margin-top: 10px;
+  color: var(--muted);
+  font-size: 0.86rem;
+  font-weight: 400;
+}
+
+.address-english {
+  display: block;
+  margin-top: 16px;
+  font-size: 0.84rem;
+}
+
+.brand-sub:lang(ko), .kicker:lang(ko) {
+  letter-spacing: 0.02em;
+}
+
+.brand-sub:lang(ko) {
+  font-size: 0.78rem;
+}
+
+.footer-lab span {
+  display: inline-block;
+  margin-top: 4px;
+  font-size: 0.74rem;
+}
+
+@media (max-width: 980px) {
+  .brand-sub:lang(ko) { display: inline; }
+}
