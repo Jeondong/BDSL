@@ -420,43 +420,6 @@ h3 {
   font-weight: 650;
 }
 
-.home-research-grid {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  border-top: 1px solid var(--ink);
-}
-
-.home-research-item {
-  min-height: 240px;
-  padding: 28px clamp(22px, 3vw, 40px) 30px 0;
-  border-bottom: 1px solid var(--line);
-}
-
-.home-research-item:nth-child(even) {
-  padding-right: 0;
-  padding-left: clamp(22px, 3vw, 40px);
-  border-left: 1px solid var(--line);
-}
-
-.home-research-item span {
-  display: block;
-  margin-bottom: 38px;
-  color: var(--blue);
-  font-size: 0.72rem;
-  font-weight: 750;
-}
-
-.home-research-item h3 {
-  margin-bottom: 12px;
-  font-size: 1.35rem;
-}
-
-.home-research-item p {
-  margin: 0;
-  color: var(--muted);
-  font-size: 0.94rem;
-}
-
 .project-preview-list,
 .project-list {
   border-top: 1px solid var(--ink);
@@ -670,9 +633,7 @@ h3 {
   gap: clamp(50px, 8vw, 110px);
 }
 
-.cv-column h2,
-.interest-section h2,
-.skills-section h2 {
+.cv-column h2 {
   margin-bottom: 30px;
   font-size: clamp(1.9rem, 3vw, 2.5rem);
 }
@@ -718,26 +679,6 @@ h3 {
   font-size: 0.8rem;
 }
 
-.interest-grid {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  border-top: 1px solid var(--ink);
-}
-
-.interest-group {
-  padding: 28px clamp(22px, 3vw, 38px) 10px 0;
-}
-
-.interest-group + .interest-group {
-  padding-left: clamp(22px, 3vw, 38px);
-  border-left: 1px solid var(--line);
-}
-
-.interest-group h3 {
-  margin-bottom: 18px;
-  font-size: 1.1rem;
-}
-
 .plain-list {
   margin: 0;
   padding: 0;
@@ -749,23 +690,6 @@ h3 {
   border-bottom: 1px solid rgba(31, 45, 93, 0.09);
   color: var(--muted);
   font-size: 0.91rem;
-}
-
-.skills-grid {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 16px;
-}
-
-.skill-group {
-  padding: 28px;
-  border: 1px solid var(--line);
-  background: rgba(255, 255, 255, 0.32);
-}
-
-.skill-group h3 {
-  margin-bottom: 18px;
-  font-size: 1.08rem;
 }
 
 .profile-record-section h2 {
@@ -1273,19 +1197,12 @@ h3 {
     margin-top: 20px;
   }
 
-  .home-research-grid,
-  .interest-grid,
-  .skills-grid,
   .research-area-grid,
   .cv-grid,
   .profile-record-grid {
     grid-template-columns: 1fr;
   }
 
-  .home-research-item,
-  .home-research-item + .home-research-item,
-  .interest-group,
-  .interest-group + .interest-group,
   .research-area,
   .research-area:nth-child(even) {
     padding: 25px 0 28px;
@@ -1293,7 +1210,6 @@ h3 {
     border-left: 0;
   }
 
-  .home-research-item span,
   .research-area .area-number {
     margin-bottom: 28px;
   }
@@ -1399,7 +1315,7 @@ h1:lang(ko), h2:lang(ko), h3:lang(ko) {
   line-height: 1.5;
 }
 
-.english-label, .home-research-item .english-label {
+.english-label {
   display: block;
   margin: 6px 0 0;
   color: var(--muted);

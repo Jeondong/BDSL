@@ -27,7 +27,7 @@ The live site is available at [https://jeondong.github.io/BDSL/](https://jeondon
 
 - Add new lab news at the top of the `.news-list` container in `news.html`.
 - Add verified publications by year in `publications.html`.
-- Update the PI biography, appointments, education, research interests, and skills in `pi.html`.
+- Update the PI profile, appointments, and education in `pi.html`.
 - Add new member profiles to `people.html` as the lab grows.
 - Add the office and laboratory room numbers to `contact.html` after space assignment.
 
@@ -35,7 +35,7 @@ The live site is available at [https://jeondong.github.io/BDSL/](https://jeondon
 
 - `index.html` — home page and primary entry points
 - `news.html` — appointments, publications, and laboratory updates
-- `pi.html` — principal investigator profile, CV, research interests, and skills
+- `pi.html` — principal investigator profile and CV
 - `people.html` — laboratory members and prospective-member information
 - `research.html` — research areas and current projects
 - `publications.html` — selected peer-reviewed publications and profile link
